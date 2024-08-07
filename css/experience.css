@@ -1,0 +1,63 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #987ac7;
+}
+
+.experience h2 {
+    margin: 0;
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    background-color: transparent;
+}
+
+.experience span {
+    margin: 0;
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.experience p {
+    margin: 0;
+    padding: 10px 0 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.experience span::before {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
+}
+
+.experience li .period {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience li .period::before {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/Assets/Calendar.svg');
+}

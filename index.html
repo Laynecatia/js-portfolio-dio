@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
+    />
+    <script src="https://kit.fontawesome.com/8a173e06dc.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/acordeon.css">
+    <link rel="stylesheet" href="./css/languages.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/experience.css">
+    <link rel="stylesheet" href="./css/skills.css">
+
+
+    <title>Portfolio - Elaine Catia</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <img class="img-header" src="./Assets/LayneCatia.jpg" alt="foto de Elaine">
+
+            <h1 class="title">Ola, <br>eu sou Elaine Catia</h1>
+
+            <div class="info-header">
+                <p><i class="fa fa-solid fa-user"></i>Estudante de Engenharia de Software</p>
+                <p><i class="fa fa-solid fa-map-pin"></i>Canterbury - UK</p>
+                <p><i class="fa fa-instagram"></i>Coding.uk</p>
+                <p><i class="fa fa-regular fa-envelope"></i>Laynecode@hotmail.com</p>             </p>
+            </div>    
+
+        </header>
+
+        <section class="acordeon open dropdown">
+            <button class="trigger dropbtn" 
+                onclick="myFunction4()" 
+                type="button">
+               Skills
+            </button>
+           
+           
+            <div id="myDropdown4" class="content ">  
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas</h3>
+                        <ul>
+                            <li>
+                                <img src="./Assets/html.svg" alt="html" title="html">
+                            </li>
+                            <li>
+                                <img src="./Assets/css.svg" alt="html" title="html">
+                            </li>
+                            <li>
+                                <img src="./Assets/javascript.svg" alt="html" title="html">
+                            </li>
+                            <li>
+                                <img src="./Assets/GitHub.png" alt="html" title="html">
+                            </li>
+                        </ul>
+                    </section>   
+                    <section class="personal">
+                        <h3>Pessoal</h3>
+                        <ul>
+                            <li>• Trabalho em equipe</li>
+                            <li>• Boa comunicação</li>
+                            <li>• Organização</li>
+                            <li>• Facilidade com tarefas práticas</li>
+                            <li>• Comprometimento com os resultados</li>
+                        </ul>
+                    </section>       
+                </div>              
+                              
+            </div>
+
+        </section>
+
+        <section class="acordeon open dropdown">
+            <button class="trigger dropbtn" 
+                onclick="myFunction()" 
+                type="button">
+               Idiomas
+            </button>
+           
+           
+            <div id="myDropdown" class="content ">                
+                    <ul class="languages">
+                        <li>Portugues</li>
+                        <li>Ingles</li>
+                        <li>Italiano</li>
+                    </ul>                
+            </div>
+
+        </section>
+
+        <section class="acordeon open dropdown">
+            <button class="trigger dropbtn" 
+                onclick="myFunction2()" 
+                type="button">
+               Portfólio
+            </button>
+           
+           
+            <div id="myDropdown2" class="content ">                
+                         <ul class="portfolio">
+                            <li class="portfolio-li">
+                                <span class="title-portfolio github">Criando um App de Numero Secreto</span>
+                                <a href="https://jogo-bay-tau.vercel.app/" target="_blank">https://jogo-bay-tau.vercel.app/</a>
+                            </li>    
+                            <li class="portfolio-li">
+                                <span class="title-portfolio github">Criando um App de Hábitos</span>
+                                <a href="https://laynecatia.github.io/nlwSetup/" target="_blank">https://laynecatia.github.io/nlwSetup/</a>
+                            </li>   
+                            <li class="portfolio-li">
+                                <span class="title-portfolio github">Criando um Pokedex</span>
+                                <a href="https://github.com/Laynecatia/js-developer-pokedex" target="_blank">https://github.com/Laynecatia/js-developer-pokedex</a>
+                            </li>                           
+
+                         </ul>       
+            </div>
+
+        </section>
+
+        <section class="acordeon open dropdown">
+            <button class="trigger dropbtn" 
+                onclick="myFunction3()" 
+                type="button">
+               Experiências Profissionais
+            </button>
+           
+           
+            <div id="myDropdown3" class="content ">  
+                <ul class="experience">
+                    <li>
+                        <h2 class="title">Front-End Developer Student</h2>
+                        <span class="period">Aug 2021 - Current</span>
+                        <p>Minha experiência professional na área de tecnologia ainda é apenas com projetos 
+                        pessoais que venho desenvolvendo ao longo dos meus estudos.</p>
+                    </li>
+                    <li>
+                        <h2 class="title">Catering - London</h2>
+                        <span class="period">Dec 2014 - Jan 2018</span>
+                        <p>Serviço de Catering, preparar mesas de reuniões em uma empresa de marketing digital no centro de Londres.</p>
+                    </li>
+                    <li>
+                        <h2 class="title">Auxiliar de Farmacia</h2>
+                        <span class="period">May 2010 - Aug 2014</span>
+                        <p>Trabalhei como auxiliar de farmácia, com dispensa de medicamentos, caixa, atendende de perfumaria.</p>
+                    </li>
+                </ul>              
+                                  
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="./js/acordeon.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

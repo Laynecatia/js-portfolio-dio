@@ -1,0 +1,60 @@
+.skills {
+    display: flex;
+    flex-direction:column;
+    margin: 0;
+    padding: 0;
+    background-color: #987ac7;
+}
+
+.skills  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    background-color: #987ac7;
+    list-style: none;
+}
+
+.skills li img{
+    max-width: 50px;
+    background-color: #987ac7;
+}
+
+
+.skills h3 {
+    margin: 0;
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+    background-color: #987ac7;
+}
+
+.tools {
+    background-color: #987ac7;
+}
+
+.personal {
+    background-color: #987ac7;
+}
+
+.personal ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    list-style: none;
+}
+
+@media only screen and (min-width: 768px) {
+   .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+}
+
+
+
